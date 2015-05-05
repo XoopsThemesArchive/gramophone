@@ -1,0 +1,386 @@
+html {
+	scrollbar-3dlight-color:#8B0000;
+	scrollbar-arrow-color:#000000;
+	scrollbar-darkshadow-color:#A52A2A;
+	scrollbar-face-color:#ff0000;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-shadow-color:#ff0000;
+	scrollbar-track-color:#eaedf4;
+}
+
+body{
+	background:#ff0000;
+	color:#666666;
+	font:11px Verdana,Arial,Helvetica,sans-serif;
+	margin:6px;
+	padding:0;
+	margin:10px
+}
+
+hr {
+	height: 3px; 
+	border: 3px #ff0000 solid; 
+	filter: Alpha(Opacity=100,FinishOpacity=30,Style=2); 
+	width: 100%;
+}
+
+a:link,a:active,a:visited { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	text-decoration: none; 
+	color: #666666; 
+	font-style: normal;
+}
+a:hover { 
+	text-decoration: underline;  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #ff0000; 
+	font-style: normal
+}
+
+.bg{
+	color: #000000;
+}
+
+.outline{
+	background: #ffffff;
+	border: solid 1px #cccccc;
+}
+table { 
+	width: 100%; 
+	margin: 5; 
+	margin: 5;
+	font-size: small
+}
+
+table td { 
+	padding: 0; 
+	border-width: 0; 
+	padding: 5;	
+	vertical-align: top; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #666666; 
+	font-size: 11px;
+	border-top-width : 2px; 
+	border-right-width : 2px; 
+	border-bottom-width : 2px; 
+	border-left-width : 2px;
+	padding:5px;
+}
+
+td.header {
+	padding:10px;
+    height:90px;
+}
+
+input { 
+	background-color : #ffffff;
+	color : #666666;
+	font-size: 11px; 
+}
+
+textarea {
+	color : #666666;
+	background-color : #ffffff;		
+	font: normal 11px;
+	border: solid 1px #cccccc;
+}
+
+select {
+	color : #666666;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #cccccc; 
+}
+
+img { 
+	border: 0;
+}
+
+ul { 
+	margin: 2px; 
+	padding: 2px; 
+	list-style: decimal inside; 
+	text-align: left;
+}
+
+li { 
+	margin-left: 2px; 
+	list-style: disc inside;
+}
+
+.odd { 
+	background-color: #ffffff;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align: middle;	
+}
+
+.outer { 
+	color:#999999;
+	background-color: #cccccc;
+	text-align:left;
+}
+
+.even { 
+	background-color: #ffffff;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align: middle;
+}
+
+th { 
+	background-color: #e5e5e5; 
+	padding: 5px;
+}
+
+.head { 
+	color: #333333; 
+	font-size: 11px; 
+	font-weight : bold; 
+	height: 25px;
+	background:#F0F8FF;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align: middle;	
+}
+
+.foot { 
+	background-color: #F0F8FF; 
+}
+
+.comTitle {
+	color: #999999;
+	font-size: 13px;
+	font-weight: bold;
+	background: #e5e5e5;
+	border:solid 1px #cccccc;
+	padding-left:7px;
+	vertical-align: middle;	
+}
+
+.comText {
+	padding: 20px;
+	text-align: left;
+}
+
+.comUserStat {
+	font-size: 10px; 
+	color: #00396a; 
+	font-weight:bold; 
+	border: 1px solid #cccccc; 
+	background-color: #ffffff; 
+	margin: 2px; padding: 2px;
+}
+
+.comUserStatCaption {
+	font-weight: normal;
+}
+
+.comUserStatus {
+	margin-left: 2px; 
+	margin-top: 10px; 
+	color: #333333; 
+	font-weight:bold; 
+	font-size: 10px;
+}
+
+.comUserRank {
+	margin: 2px;
+}
+
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+}
+
+.comUserRankImg {
+	border: 0;
+}
+
+.comUserName {}
+.comUserImg {
+	margin: 2px;
+}
+
+.comDate {
+	color: #00396a;
+	font-weight: normal; 
+	font-style: italic;	 
+	font-size: smaller;
+	text-align: right;	
+}
+
+.comDateCaption {
+	color: #00396a;
+	font-weight: bold; 
+	font-style: normal;
+	text-align: right;	
+}
+
+div.xoopsQuote { 
+	background: #ffffff; 
+	border: 1px solid #ff0000;
+	width:90%;
+	color:#444444;
+	margin-left:10px;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+div.xoopsCode {
+	background: #f4f4f4; 
+	border: 1px solid #ff0000;
+	color:#ffffff;
+	margin-left:10px;	
+	width:90%;	
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+.item {
+	background: #ffffff;
+}
+
+.itemHead {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	background: #000000;
+	border:solid 1px #cccccc;
+	vertical-align: middle;
+	padding:5px;
+}
+
+.itemInfo {
+	text-align: right; 
+	padding-right: 10px; 
+	background-color: #efefef;
+}
+
+.itemTitle a {
+	color: #ffffff;
+}
+
+.itemPoster {
+	color: #666666;
+	font-size: 90%; 
+	font-style: normal;
+}
+
+.itemPostDate {
+	font-size: 90%; 
+	font-style: normal;
+}
+
+.itemStats {
+	color: #666666;
+	font-size: 90%; 
+	font-style: normal;
+}
+
+.itemBody {
+	color: #666666;
+	padding-left: 10px; 
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:6px;
+	text-align: left;
+	border: solid 1px #cccccc;
+}
+
+.itemText {
+	color: #666666;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	line-height: 1.5em;
+}
+
+.itemFoot {
+	text-align: right; 
+	padding: 3px; 
+	background-color: #efefef;
+	border: solid 1px #cccccc;
+}
+
+.itemAdminLink {
+	font-size: 90%;
+}
+
+.itemPermaLink {
+	font-size: 90%;
+}
+
+.blockTitle {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	background: #000000;
+	border:solid 1px #cccccc;
+	vertical-align: middle;	
+	text-align:left;
+}
+
+.blockContent {
+	background-color: #ffffff; 
+	padding-left: 15px;
+	padding-bottom:7px;
+	border-left: solid 1px #cccccc;
+	border-right:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+}
+
+td#mainmenu a {
+	background-color: #efefef; 
+	display: block; 
+	margin: 0; 
+	padding: 4px;}
+	td#mainmenu a:hover {
+	background-color: #ffffff;
+}
+
+td#mainmenu a.menuTop {
+	padding-left: 3px; 
+	border-top: 1px solid silver; 
+	border-right: 1px solid #666666; 
+	border-bottom: 1px solid #666666; 
+	border-left: 1px solid silver;
+}
+
+td#mainmenu a.menuMain {
+	padding-left: 3px; 
+	border-right: 1px solid #666666; 
+	border-bottom: 1px solid #666666; 
+	border-left: 1px solid silver;
+}
+
+td#mainmenu a.menuSub {
+	padding-left: 9px; 
+	border-right: 1px solid #666666; 
+	border-bottom: 1px solid #666666; 
+	border-left: 1px solid silver;
+}
+
+td#usermenu a {
+	background-color: #efefef; 
+	display: block; margin: 0; 
+	padding: 4px; 
+	border-right: 1px solid #666666; 
+	border-bottom: 1px solid #666666; 
+	border-left: 1px solid silver;
+}
+
+td#usermenu a:hover {
+	background-color: #ffffff;
+}
+
+td#usermenu a.menuTop {
+	border-top: 1px solid silver;
+}
+
+td#usermenu a.highlight {
+	background-color: #fcc;
+}
